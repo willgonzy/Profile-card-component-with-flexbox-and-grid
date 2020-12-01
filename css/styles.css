@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+  background-image:url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+h4, p {
+  margin: 0.5rem 0;
+}
+
+
+.card{
+  background-color: white;
+  margin: 100px 500px auto 450px;
+  background-image: url('../images/bg-pattern-card.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: .5rem;
+  height:25rem;
+
+  text-align: center;
+  width: 22rem;
+}
+.age{
+  color: gray;
+  font-size: 16px;
+}
+
+
+.profile{
+  border: white 10px solid;
+  border-radius: 50%;
+  margin-top:100px;
+}
+
+.title{
+  margin: 10px auto;
+}
+
+.footer{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.london{
+  color: grey;
+
+}
+
+.card ul {
+  padding: 0;
+}
+
+.card li {
+  display: inline;
+  float: left;
+  width: 33.33%;
+}
+
+
+
+hr{
+  background-color: hsl(0, 3%, 93%);
+  border: 1px solid hsl(0, 3%, 93%);
+  margin: 1.5rem 0;
+}
+
+
+
+
+
+.measurables p{
+text-align: center;
+display: inline;
+padding:100px;
+}
